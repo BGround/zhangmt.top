@@ -1,0 +1,495 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title>唐霜的博客_编程的时候我叫“否子戈”！</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Cache-Control" content="no-transform" />
+	<meta http-equiv="Cache-Control" content="no-siteapp">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="keywords" content="唐霜,否子戈,前端开发,南昌大学" />
+	<meta name="description" content="包含了开发技术相关的内容，主要发布javascript、前端开发、系统设计、人工智能、区块链等内容，欢迎和我交流～👏👏👏" />
+	<link rel='stylesheet' id='wp-block-library-css'  href='css/index.css' type='text/css' media='all' />
+	<link rel="stylesheet" href="css/common.css"></head>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?df76c291f84120fbebd8b2c5506bc5e7";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+<body>
+
+<div class="header" id="header">
+  <div class="container">
+    <div class="logo"><h1><a href="https://www.tangshuang.net/">唐霜的博客</a></h1></div>
+    <div class="nav">
+		<ul id="menu-%e5%af%bc%e8%88%aa" class="menu">
+			<li id="menu-item-2207" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2207"><a href="https://www.tangshuang.net/code">码</a>
+				<ul class="sub-menu">
+					<li id="menu-item-2210" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2210"><a href="https://www.tangshuang.net/web">WEB前端</a></li>
+					<li id="menu-item-4303" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4303"><a href="https://www.tangshuang.net/architecture">编程设计</a></li>
+					<li id="menu-item-2498" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2498"><a href="https://www.tangshuang.net/nodejs">NodeJS</a></li>
+					<li id="menu-item-6617" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6617"><a href="https://www.tangshuang.net/ml">机器学习</a></li>
+					<li id="menu-item-2208" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2208"><a href="https://www.tangshuang.net/linux">Linux</a></li>
+					<li id="menu-item-2209" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2209"><a href="https://www.tangshuang.net/php">PHP</a></li>
+					<li id="menu-item-2213" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2213"><a href="https://www.tangshuang.net/wordpress">WordPress</a></li>
+					<li id="menu-item-2897" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2897"><a href="https://www.tangshuang.net/docker">Docker</a></li>
+					<li id="menu-item-4096" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4096"><a href="https://www.tangshuang.net/blockchain">区块链</a></li>
+					<li id="menu-item-2212" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2212"><a href="https://www.tangshuang.net/database">数据库</a></li>
+				</ul>
+			</li>
+			<li id="menu-item-2214" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2214"><a href="https://www.tangshuang.net/works">物</a></li>
+			<li id="menu-item-6344" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6344"><a href="https://www.tangshuang.net/fm">声</a></li>
+			<li id="menu-item-7516" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7516"><a href="https://www.tangshuang.net/logs">记</a></li>
+			<li id="menu-item-3151" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3151"><a href="https://www.tangshuang.net/books">书</a></li>
+			<li id="menu-item-3191" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3191"><a href="https://www.tangshuang.net/pies">杂</a></li>
+			<li id="menu-item-4327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4327"><a href="https://www.tangshuang.net/about">关于</a></li>
+		</ul>      
+		<a href="javascript:void(0)" class="top-bar-search-btn"><i class="fa fa-search"></i></a>
+    </div>
+  </div>
+</div>
+
+<div class="focus">
+  <div id="slider" class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide-0">
+        <div class="thumb" style="background-image: url(./image/banner-1.jpg)"></div>
+        <div class="content" style="margin-top: -150px;">
+          <div><strong><em>编程</em><small>の</small>趣</strong><br>Play Codes</div>
+        </div>
+      </div>
+      <div class="swiper-slide slide-1 style-grey">
+        <div class="thumb" style="background-image: url(//www.tangshuang.net/wp-content/themes/tangshuang/img/banner-4.jpg)"></div>
+        <div class="content">
+          <div>
+            <span class="bar">淘小品</span>
+            <span class="slogan"><strong><em>高颜值</em></strong>产品推荐网站！</span>
+          </div>
+          <div class="focus-btn"><a href="http://www.taoxiaopin.com" target="_blank" class="btn btn-black">颜值至上</a></div>
+        </div>
+      </div>
+      <div class="swiper-slide slide-2">
+        <div class="thumb" style="background-image: url(//www.tangshuang.net/wp-content/themes/tangshuang/img/apiwiki.jpg)"></div>
+        <div class="content">
+          <div><strong><em>API Wiki</em></strong><br><span>帮助程序猿写接口文档</span></div>
+          <div class="focus-btn"><a href="https://github.com/tangshuang/apiwiki" target="_blank" class="btn btn-blue">马上获取</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div class="section before-scrollspy" id="points">
+  <div class="container">
+    <div class="section-title" id="points-title">拒绝平庸，有所不同</div>
+    <div class="section-info" id="points-info">我专注的领域</div>
+    <div class="section-content">
+      <div class="points-block">
+        <div class="inner">
+          <i class="fa fa-file-code-o"></i><br>
+          Visualization<br>
+          <small>数据可视化</small>
+        </div>
+      </div>
+      <div class="points-block">
+        <div class="inner">
+          <i class="fa fa-unlink"></i><br>
+          Blockchain<br>
+          <small>区块链</small>
+        </div>
+      </div>
+      <div class="points-block">
+        <div class="inner">
+          <i class="fa fa-plug"></i><br>
+          AI<br>
+          <small>人工智能</small>
+        </div>
+      </div>
+      <div class="points-block">
+        <div class="inner">
+          <i class="fa fa-hashtag"></i><br>
+          Isomorphism<br>
+          <small>多端同构</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section before-scrollspy section-author lean lean-left" id="self-introduce">
+  <div class="container lean-container" id="section-author-container">
+    <div class="section-content section-content-left">
+      <div class="inner">
+        <p>
+          专注Web前端开发，同时也关注计算机视觉、区块链。熟练掌握JS经典框架及其运行机制，在跨平台开发框架方面有一定成果。开发过前端工程化CLI和可视化工具。
+        </p>
+        <div class="skill-box">
+          <span class="skill-box-bg"><span class="skill-box-bar" style="width:100%"></span></span>
+          JavaScript
+        </div>
+        <div class="skill-box">
+          <span class="skill-box-bg"><span class="skill-box-bar" style="width:60%"></span></span>
+          PHP
+        </div>
+        <div class="skill-box">
+          <span class="skill-box-bg"><span class="skill-box-bar" style="width:60%"></span></span>
+          Node
+        </div>
+      </div>
+    </div>
+    <div class="section-content section-content-right">
+      <div class="inner">
+        <div class="section-title">博主简介</div>
+        <div class="avatar"><img src="/wp-content/themes/tangshuang/img/head.png"></div>
+        <p>我叫唐霜，英文名 frustigor（否子戈），现居深圳，前端工程师，供职于<a href="https://www.tencent.com/" target="_blank">腾讯</a>。创办<a href="http://www.taoxiaopin.com" target="_blank" title="高颜值产品推荐，让你挑选与众不同">淘小品</a>、<a href="http://www.utubon.com" target="_blank" title="科技与技术，关注未来科技与生活">乌徒帮</a>等网站。</p>
+        <p>
+          <i class="fa fa-github-alt"></i> <a href="https://github.com/tangshuang" target="_blank">https://github.com/tangshuang</a><br>
+          <i class="fa fa-envelope-o"></i> mail@tangshuang.net
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section section-posts">
+  <div class="section-bg"></div>
+  <div class="container">
+    <div class="section-title">LAST POSTS</div>
+    <div class="section-info">最新发布的文章</div>
+    <div class="section-content">
+      <div class="inner">
+                <div class="post before-scrollspy">
+          <div class="thumb"><a href="https://www.tangshuang.net/7910.html" style="background-image:url(https://static.tangshuang.net/wp-content/uploads/2020/10/timg-3.jpeg);"></a></div>          <div class="link">
+            <div class="qcode"><img src="https://static.tangshuang.net/wp-content/cache/qrcode-24e6712c0e0e9e85169d57340f5051eb.png" /></div>
+            <div class="visit"><a href="https://www.tangshuang.net/7910.html">阅读全文</a></div>
+          </div>
+          <div class="title ellipsis"><a href="https://www.tangshuang.net/7910.html">《乔布斯传》有感</a></div>
+          <div class="info ellipsis">
+            <span>2020-10-20 22:58</span>
+          </div>
+          <div class="excerpt ellipsis-box ellipsis-box-3">
+            我记得亨利·福特曾说过，“如果我最初问消费者他们想要什么，他们应该是会告诉我，‘要一匹更快的马！’”人们不知道想要什么，直到你把它摆在他们面前。
+当乔布斯去世 ...          </div>
+        </div>
+                <div class="post before-scrollspy">
+                    <div class="link">
+            <div class="qcode"><img src="https://static.tangshuang.net/wp-content/cache/qrcode-01fb0b8c0ef901606df6ab86f43040f6.png" /></div>
+            <div class="visit"><a href="https://www.tangshuang.net/7916.html">阅读全文</a></div>
+          </div>
+          <div class="title ellipsis"><a href="https://www.tangshuang.net/7916.html">用Algeb这个新轮子管理前端数据请求资源</a></div>
+          <div class="info ellipsis">
+            <span>2020-10-18 12:30</span>
+          </div>
+          <div class="excerpt ellipsis-box ellipsis-box-3">
+            
+
+一个前端项目需要管理一堆前端数据请求，现代前端应用，几乎没见过将数据请求直接写在业务代码中，大部分时候，我们都会将这些请求逻辑从业务代码中抽出来，集中管 ...          </div>
+        </div>
+                <div class="post before-scrollspy">
+          <div class="thumb"><a href="https://www.tangshuang.net/7899.html" style="background-image:url(https://static.tangshuang.net/wp-content/uploads/2020/10/Screen-Shot-2020-10-12-at-10.30.22-AM.png);"></a></div>          <div class="link">
+            <div class="qcode"><img src="https://static.tangshuang.net/wp-content/cache/qrcode-2ce3f73b0823baae88f29bc8cf84e9a5.png" /></div>
+            <div class="visit"><a href="https://www.tangshuang.net/7899.html">阅读全文</a></div>
+          </div>
+          <div class="title ellipsis"><a href="https://www.tangshuang.net/7899.html">以类hooks编程践行代数效应</a></div>
+          <div class="info ellipsis">
+            <span>2020-10-12 13:13</span>
+          </div>
+          <div class="excerpt ellipsis-box ellipsis-box-3">
+            React hooks在框架编程上具有明显特征，在推广functional组件的进程中，javascript是天然具有函数式编程优势的语言，因此，react团队 ...          </div>
+        </div>
+                <div class="post before-scrollspy">
+                    <div class="link">
+            <div class="qcode"><img src="https://static.tangshuang.net/wp-content/cache/qrcode-876ce9eb8224917e7f8f0a2dc401b0c6.png" /></div>
+            <div class="visit"><a href="https://www.tangshuang.net/7897.html">阅读全文</a></div>
+          </div>
+          <div class="title ellipsis"><a href="https://www.tangshuang.net/7897.html">可旋转的table（3D table模型）</a></div>
+          <div class="info ellipsis">
+            <span>2020-10-09 13:51</span>
+          </div>
+          <div class="excerpt ellipsis-box ellipsis-box-3">
+            https://codepen.io/Bushmanov/pen/ecgwL ...          </div>
+        </div>
+                <div class="post before-scrollspy">
+          <div class="thumb"><a href="https://www.tangshuang.net/7891.html" style="background-image:url(https://static.tangshuang.net/wp-content/uploads/2020/10/robust-19.png);"></a></div>          <div class="link">
+            <div class="qcode"><img src="https://static.tangshuang.net/wp-content/cache/qrcode-86e55fe4e447abd6b71c30e497526304.png" /></div>
+            <div class="visit"><a href="https://www.tangshuang.net/7891.html">阅读全文</a></div>
+          </div>
+          <div class="title ellipsis"><a href="https://www.tangshuang.net/7891.html">Robust 第 019 期：逆时间旅行</a></div>
+          <div class="info ellipsis">
+            <span>2020-10-02 21:58</span>
+          </div>
+          <div class="excerpt ellipsis-box ellipsis-box-3">
+            
+
+本期节目聊一个比较科幻的话题“逆时间旅行”，从《信条》这部电影出发，结合自己的一些兴趣点，聊一聊关于逆时间旅行的各个方面，以及对编程的一些借鉴意义。
+ ...          </div>
+        </div>
+              </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  #section-nautil-tailing::after {
+    content: ' ';
+    display: inline-block;
+    width: 8px;
+    margin-left: 2px;
+    border-bottom: 2px solid transparent;
+    animation: blink-caret .75s step-end infinite;
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: currentColor; }
+  }
+</style>
+<div class="section before-scrollspy section-works" id="section-nautil">
+  <div class="section-bg"></div>
+  <div class="container">
+    <div class="section-content section-content-left">
+      <div class="inner">
+        <div class="section-title">
+          <span>Nautil<span id="section-nautil-tailing"></span></span>
+          <small>2019</small>
+        </div>
+        <p>Nautil 是一个响应式前端开发框架，基于 React 和观察者模式而研发的新一代跨端开发集成框架。</p>
+        <p>它内置的观察者模式方案，有效解决应用的状态、数据、路由、国际化等问题，并内置这些基础部件。它的跨端方案，可以让开发者写一份代码，就可以在不同的平台上编译后运行。</p>
+        <p><a class="btn btn-white" href="http://github.com/tangshuang/nautil" target="_blank">了解详情</a></p>
+      </div>
+    </div>
+    <div class="section-content section-content-right">
+      <div class="inner">
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  #section-tyshemo.section .section-bg:after {
+    background: #fff;
+  }
+  #section-tyshemo path {
+    stroke: #000;
+    fill: none;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear infinite forwards;
+  }
+  #section-tyshemo.before-scrollspy path {
+    animation: none;
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+</style>
+<div class="section before-scrollspy section-works" id="section-tyshemo">
+  <div class="section-bg"></div>
+  <div class="container">
+    <div class="section-content section-content-left">
+      <div class="inner">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <path d="M 4.4891 43.676L 6.2891 43.676L 13.8491 5.75598L 26.2091 5.75598L 26.5691 4.07605L 0.0491 4.07605L -0.3109 5.75598L 12.0491 5.75598L 4.4891 43.676z"/>
+          <path d="M 18.4089 56.996C 23.5689 56.996 26.8089 52.076 29.0889 47.636L 47.0889 14.996L 45.2889 14.996L 35.0889 33.7161C 33.5289 36.5961 31.9689 39.4761 30.5289 42.2361L 30.2889 42.2361C 29.9289 39.5961 29.4489 36.4761 28.9689 33.7161L 25.9689 14.996L 24.2889 14.996L 29.0889 44.276L 27.7689 46.916C 25.2489 52.076 22.1289 55.436 18.5289 55.436C 17.8089 55.436 17.2089 55.316 16.4889 54.9561L 15.7689 56.396C 16.8489 56.876 17.8089 56.996 18.4089 56.996z"/>
+          <path d="M 58.8483 44.396C 66.0483 44.396 71.5683 39.8361 71.5683 32.876C 71.5683 28.556 69.0483 25.796 65.3283 23.636L 60.1683 20.636C 57.4083 19.076 54.8883 16.916 54.8883 13.076C 54.8883 9.11609 58.3683 4.91595 63.7683 4.91595C 68.0883 4.91595 71.3283 7.07605 73.3683 9.71606L 74.6883 8.63599C 72.6483 5.75598 68.9283 3.35608 64.1283 3.35608C 57.5283 3.35608 53.0883 8.03595 53.0883 13.316C 53.0883 17.516 56.0883 20.276 59.3283 22.196L 64.6083 25.316C 67.7283 27.1161 69.7683 29.516 69.7683 33.1161C 69.7683 38.996 65.0883 42.8361 59.0883 42.8361C 53.9283 42.8361 50.3283 40.676 47.8083 36.8361L 46.3683 37.796C 49.0083 41.996 53.2083 44.396 58.8483 44.396z"/>
+          <path d="M 77.2077 43.676L 78.8877 43.676L 83.2077 22.196C 87.7677 17.756 91.3677 15.8361 94.0077 15.8361C 97.8477 15.8361 99.4077 17.756 99.4077 21.4761C 99.4077 22.676 99.2877 23.516 98.9277 25.316L 95.2077 43.676L 96.8877 43.676L 100.608 25.076C 100.968 23.396 101.088 22.676 101.088 21.2361C 101.088 17.1559 99.1677 14.276 94.2477 14.276C 90.7677 14.276 87.5277 16.556 83.6877 19.796L 83.4477 19.796L 84.1677 17.0359L 87.5277 0.355957L 85.8477 0.355957L 77.2077 43.676z"/>
+          <path d="M 107.087 32.636C 107.087 40.316 111.287 44.396 117.887 44.396C 121.007 44.396 124.007 42.9561 126.287 41.276L 125.447 39.9561C 123.287 41.516 120.647 42.8361 118.007 42.8361C 112.007 42.8361 107.387 38.756 109.127 29.1559L 129.647 29.1559C 130.007 27.9561 130.367 26.276 130.367 24.3561C 130.367 18.4761 127.967 14.276 121.847 14.276C 114.527 14.276 107.087 21.7161 107.087 32.636zM 109.487 27.5961C 111.047 20.756 116.327 15.8361 121.727 15.8361C 126.887 15.8361 128.687 19.916 128.687 23.996C 128.687 25.316 128.567 26.396 128.327 27.5961L 109.487 27.5961z"/>
+          <path d="M 134.926 43.676L 136.726 43.676L 142.246 16.076C 142.846 12.8361 143.446 8.99597 144.046 5.75598L 144.286 5.75598L 145.726 14.276L 150.046 39.1161L 152.086 39.1161L 165.646 14.276L 170.326 5.75598L 170.566 5.75598C 169.846 8.87598 169.006 12.8361 168.286 16.076L 162.766 43.676L 164.566 43.676L 172.486 4.07605L 169.486 4.07605L 156.286 27.9561L 151.606 36.9561L 151.366 36.9561L 149.806 27.9561L 145.846 4.07605L 142.846 4.07605L 134.926 43.676z"/>
+          <path d="M 185.326 44.396C 193.126 44.396 200.326 36.2361 200.326 25.556C 200.326 18.3561 196.606 14.276 190.846 14.276C 183.046 14.276 175.846 22.436 175.846 33.1161C 175.846 40.316 179.566 44.396 185.326 44.396zM 185.446 42.8361C 180.406 42.8361 177.526 39.3561 177.526 32.756C 177.526 23.636 184.246 15.8361 190.726 15.8361C 195.766 15.8361 198.646 19.316 198.646 25.916C 198.646 35.0359 191.926 42.8361 185.446 42.8361z"/>
+        </svg>
+      </div>
+    </div>
+    <div class="section-content section-content-right">
+      <div class="inner">
+        <div class="section-title">
+          <span>TySheMo</span>
+          <small>2018-2019</small>
+		</div>
+        <p>2019 年开发的一款前端数据建模库，用于在前端编程中，确保数据类型的准确。</p>
+        <p>它将前端数据管理，抽象为分层的 5 个层面，通过 Type、Schema、Model 来对数据进行管理，以及在业务中数据变化时进行结构转化和类型确认。</p>
+        <p><a class="btn btn-black" href="https://github.com/tangshuang/tyshemo" target="_blank">了解详情</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section before-scrollspy section-works" id="section-work-componer">
+  <div class="section-bg"></div>
+  <div class="container">
+    <div class="section-content section-content-left">
+      <div class="inner">
+        <div class="section-title">
+			<span>Componer</span>
+			<small>2016-2017</small>
+		</div>
+        <p>Componer 是一个基于 node、gulp、webpack 的开源前端开发工程化工具。</p>
+        <p>前端开发已经是构建先行的时代，componer 是一个专注解决 components 的构建的命令行工具。它基于 gulp、webpack，提供 add、build、preview、test 等任务，让你完全书写 ES6 语法，通过 express 创建本地开发服务器环境，通过 karma、jasmine 框架进行测试。</p>
+        <p><a class="btn btn-white" href="https://github.com/tangshuang/componer" target="_blank">了解项目</a></p>
+      </div>
+    </div>
+    <div class="section-content section-content-right">
+      <div class="inner">
+        <div class="shot-line"></div>
+        <div class="shot-line"></div>
+        <div class="shot-line"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section before-scrollspy section-works" id="section-work-morningstar">
+  <div class="section-bg"></div>
+  <div class="container">
+    <div class="section-content section-content-left">
+      <div class="inner">
+        <img src="https://static.tangshuang.net/wp-content/themes/tangshuang/img/morningstar-logo.png">
+      </div>
+    </div>
+    <div class="section-content section-content-right">
+      <div class="inner">
+        <div class="section-title">
+			<span>Morningstar</span>
+			<small>2016-2017</small>
+		</div>
+        <p>2016 年供职于 Morningstar，一家国际知名的基金评级公司。Morningstar 基金投资方法论被奉为教科书经典投资理论。</p>
+        <p>期间负责 AM、DWM 项目中的一些开发任务。在 Morningstar 学习了构建开发模式，对 node、npm、grunt、webpack、babel 等开发环境更加熟练，学会了利用 d3 制作图表。更重要的是学到很多金融知识，丰富了自己的理财思想。</p>
+        <p><a class="btn btn-black" href="http://www.morningstar.com" target="_blank">访问官网</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section scroll-parallax section-works" id="section-work-ajrice">
+  <div class="section-bg"></div>
+  <div class="container">
+    <div class="section-content section-content-left">
+      <div class="inner">
+        <div class="section-title">
+			<span>阿基米互联网公社</span>
+			<small>2015-2016</small>
+		</div>
+        <p>2015 年供职于阿基米互联网公社，是一家有趣的互联网孵化器公司，孵化出“点点租”“一乘”“一起上”等项目。</p>
+        <p>期间全面负责阿基米的网站，前端主要基于 jQuery 与 Bootstrap，后端用 ThinkPHP，服务器依托阿里云的云服务器、云数据库、CDN、OSS 等。此外，项目中的一些值得讨论的点包括 Restful API 为 APP 客户端提供接口及验证加密算法、会议室预订算法、均衡负载、短信登录、第三方支付等。</p>
+        <p><a class="btn btn-white" href="http://www.ajrice.com" target="_blank">点击查看</a></p>
+      </div>
+    </div>
+    <div class="section-content section-content-right">
+      <div class="inner">
+        <img src="https://static.tangshuang.net/wp-content/themes/tangshuang/img/ajrice-logo.png" class="scroll-parallax-moveto-top">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section scroll-parallax section-works" id="section-work-wp2pcs">
+  <div class="section-bg"></div>
+  <div class="container">
+    <div class="section-content section-content-left">
+      <div class="inner">
+        <img src="https://static.tangshuang.net/wp-content/themes/tangshuang/img/balloon3.png" class="scroll-parallax-moveto-top">
+      </div>
+    </div>
+    <div class="section-content section-content-right before-scrollspy">
+      <div class="inner" style="margin-top: 15%;">
+        <div class="section-title">
+			<span>WP2PCS</span>
+			<small>2014</small>
+		</div>
+        <p>WP2PCS 是我开发的一个基于个人云存储的网站数据备份 WordPress 插件，以百度云盘作为云存储，将网站的数据、文件定时备份到云端，为中小站长解决网站数据丢失烦恼。</p>
+        <p>它主要解决了网站数据备份的问题，因为很多网站经常出现宕机、转移、数据丢失等问题，甚至主机商跑路，苦心经营的网站瞬间化为乌有。使用 WP2PCS 可以备份 WordPress 的数据库 sql 文件，网站规定目录下的文件，到百度云盘里面，定时备份，无需手动操作，这样就解除了中小站长网站数据备份的问题。</p>
+        <p><small>但由于百度 PCS API 已经下线，所以现在插件也不可用了。</small></p>
+        <p><a class="btn btn-black" href="https://github.com/tangshuang/WP2PCS" target="_blank">获取源码</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section before-scrollspy" id="hire-contact">
+  <div class="section-bg">
+    <video autoplay loop id="hire-contact-bg" src="//www.tangshuang.net/wp-content/themes/tangshuang/img/SelfieVideoogv.ogv" type="video/ogg"></video>
+  </div>
+  <div class="container">
+    <div class="section-title" id="points-title">项目咨询</div>
+    <div class="section-content">
+      <p class="step">
+        <span><em><i class="fa fa-file-text-o"></i></em><br>需求</span>
+        <span><i class="fa fa-chevron-right"></i></span>
+        <span><em><i class="fa fa-gears"></i></em><br>研发</span>
+        <span><i class="fa fa-chevron-right"></i></span>
+        <span><em><i class="fa fa-cube"></i></em><br>部署</span>
+      </p>
+      <hr style="background: none;width: 20%;border-bottom: #fff solid 1px;margin: 50px auto;">
+      <!--div class="price"><i class="fa fa-cny"></i>200<small>/小时</small></div-->
+      <div class="price">需求咨询</div>
+      <div style="text-align: center;color: #ccc;">或</div>
+      <div class="price">开发咨询</div>
+      <p style="text-align: center;color: #ccc;"><i class="fa fa-chevron-down"></i></p>
+      <p style="text-align: center;"><a href="http://www.tangshuang.net/contact" class="btn btn-white btn-lg">和我联系</a></p>
+    </div>
+  </div>
+</div>
+
+
+<div class="section" id="contact-me">
+  <div class="container" align="center">
+    <div class="section-title">Talk is cheap, show me the code.</div>
+    <div class="section-content">
+      -- Linus
+    </div>
+  </div>
+</div>
+
+<div class="footer" id="footer">
+  <div class="container">
+    <div class="foot-widget widget1">
+      <div class="foot-logo"><img src="https://static.tangshuang.net/wp-content/themes/tangshuang/img/foot-logo.png"></div>
+      <p>
+        &copy; 2010-2020 <a href="https://www.tangshuang.net/">唐霜</a>. All rights reserved.
+        <br>本站内容均为原创，未经许可，不允许转载。
+        <br><a href="http://www.beian.miit.gov.cn">蜀ICP备19035252号-1</a>
+      </p>
+    </div>
+    <div class="foot-widget widget2">
+      <h3>声明</h3>
+      <p><a href="http://www.tangshuang.net/copyright">版权声明</a></p>
+    </div>
+    <div class="foot-widget widget3">
+      <h3>关于</h3>
+      <p><a href="http://www.tangshuang.net/message">给我留言</a></p>
+      <p><a href="http://www.tangshuang.net/flinks">友情链接</a></p>
+      <p><a href="http://www.tangshuang.net/contact">联系方式</a></p>
+    </div>
+    <div class="foot-widget widget4">
+      <div class="widget_links" id="linkcat-28"><h3>友情链接</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://www.lzane.com/" target="_blank">Lzane Li</a></li>
+<li><a href="https://overtrue.me/" target="_blank">安正超</a></li>
+<li><a href="http://www.twinsenliang.net/" target="_blank">彪叔</a></li>
+<li><a href="http://www.linsongzheng.com/" target="_blank">林松正</a></li>
+<li><a href="http://cdc.tencent.com/" target="_blank">腾讯CDC</a></li>
+<li><a href="https://www.mokeyjay.com" target="_blank">超能小紫</a></li>
+<li><a href="https://avenirzheng.net/" target="_blank">阿义</a></li>
+
+	</ul>
+<div class="clear"></div></div>
+    </div>
+    <div class="foot-widget widget5" style="color: #666;text-align: center;">
+      <img src="https://static.tangshuang.net/wp-content/uploads/2020/03/ts-wx.png"><br><small>扫码加我微信</small>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+
+<script src="https://www.tangshuang.net/wp-content/cache/4b7aceff72ebdb6a23cc52c0e839c720.js?ver=20200926115732"></script><script type='text/javascript' src='https://www.tangshuang.net/wp-includes/js/wp-embed.min.js?ver=5.3.4'></script>
+</body>
+</html>
